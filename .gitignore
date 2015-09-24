@@ -1,0 +1,10 @@
+.sass-cache/
+materials-hard/
+materials/
+old/
+stat/
+node_modules/
+img/
+fonts/
+#.gitexcludes
+#.gitignore

@@ -177,6 +177,19 @@ $(document).ready(function(){
 		});
 		/*=======================*/
 
+		$("body").on("mouseenter",".user-top-panel",function(){
+			$(".user-drop-down").css({display:"block"});
+			$(".user-drop-down").stop().animate({opacity:1},300);
+		});
+
+
+		$("body").on("mouseleave",".user-top-panel",function(){
+			$(".user-drop-down").stop().animate({opacity:0},300,function(){
+					$(".user-drop-down").css({display:"none"});
+			});
+		});
+
+
 
 	 });
 

@@ -110,6 +110,9 @@
     padding: 0 7px;
 }
 
+.list-dd:after,
+.list-dd-item:after,
+.list-dd-item-txt:after,
 .home-section-right-pad:after {
     content: "";
     display: block;
@@ -523,11 +526,16 @@
     display: block;
     width: 191px;
     height: 250px;
-    background: url(../img/dd.png) no-repeat center top;
+    background: rgba(255, 255, 255, 0.5);
     position: absolute;
-    top: 56px;
+    top: 63px;
     left: 0;
-    z-index: 100000000000;
+    z-index: 10000;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .main-header {
@@ -537,4 +545,106 @@
     z-index: 1000
 }
 
+.arrow-dd {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    position: absolute;
+    top: -6px;
+    left: 13px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    background: #fff;
+    z-index: 10000
+}
 
+.avatar-svg {
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    fill: #75c3ff;
+}
+
+.avatar-img {
+    display: block;
+    width: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.main-dd-title,
+.main-dd-title-txt {
+    clear: both;
+    display: block;
+}
+
+.main-dd-title:after,
+.main-dd-title-txt:after {
+    content: "";
+    display: block;
+    clear: both;
+    font-size: 0;
+    text-decoration: none;
+    visibility: hidden;
+    text-indent: -999999px;
+}
+
+.main-dd-title-txt {
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: "ProximaNova-Semibold";
+}
+
+.user-drop-down-pad {
+    padding: 30px;
+}
+
+.list-dd,
+.list-dd-item,
+.list-dd-item-txt {
+    display: block;
+    clear: both;
+}
+
+.list-dd-item-txt {
+    color: #727272;
+    font-size: 13px;
+    font-family: "ProximaNova-Regular";
+    text-decoration: none;
+    line-height: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -khtml-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -icab-transition: all 0.3s ease-in-out;
+}
+
+.list-dd-item-txt:hover {
+    color: #1f95ef
+}
+
+.main-dd-title {
+    padding-bottom: 10px;
+}
+
+.dd-top-spacer {
+    display: block;
+    min-height: 17px;
+}
+
+.user-drop-down {
+    display: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}

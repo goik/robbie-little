@@ -199,12 +199,46 @@ $(document).ready(function() {
         });
     });
 
-/*
-    $('#r_news_popup').mousewheel(function(event, delta) {
+    /*
+        $('#r_news_popup').mousewheel(function(event, delta) {
+            event.stopPropagation();
+            event.preventDefault();
+        });
+    */
+    $("body").on("mouseenter", ".scroll-cell", function() {
+
+    });
+
+    $("body").on("focus", ".default-search", function() {
+        $(".search-drop-down").css({
+            display: "block"
+        });
+        $(".search-drop-down").stop().animate({
+            opacity: 1
+        }, 300);
+    });
+
+    $("body").on("click", ".search-drop-down,.search-cell-pad", function(event) {
         event.stopPropagation();
         event.preventDefault();
     });
-*/
+
+
+    $("body").click(function(){
+    		$(".search-drop-down").stop().animate({opacity:0},300,function(){
+    			$(".search-drop-down").css({display:"none"});
+    		});
+    });
+
+
+
+    /*
+    	$("body").on("blur",".default-search",function(){
+    		$(".search-drop-down").stop().animate({opacity:0},300,function(){
+    			$(".search-drop-down").css({display:"none"});
+    		});
+    	});
+    */
 
 
 });

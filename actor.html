@@ -49,8 +49,110 @@
 </head>
 
 <body id="top" class="light-bg">
+
+
+
+
+<!-- NEW SIGN UP -->
+<div id="r_sign_up">
+    <div>
+        <div class="r_sign_up_top">
+            <span>
+                        <svg  width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
+                            <path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
+                            <path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
+                        </svg>
+                    </span>
+            <p>Sign up for Company Name</p>
+        </div>
+        <div>
+            <form novalidate>
+                <div class="r_sign_up_dialog_boxes">
+                    <label>Name
+                        <br />
+                        <input type="text" name="fname" class="r_inputs" id="r_sign_up_error_for_inputs" />
+                    </label>
+                    <label>Surname
+                        <br />
+                        <input type="text" name="lname" class="r_inputs" />
+                    </label>
+                </div>
+                <div class="r_sign_up_dialog_boxes">
+                    <label>Password
+                        <br />
+                        <input type="password" name="fpass" class="r_inputs" />
+                    </label>
+                    <label>Confirm password
+                        <br />
+                        <input type="password" name="spass" class="r_inputs" />
+                    </label>
+                </div>
+                <div class="r_sign_up_dialog_boxes">
+                    <label>Email
+                        <br />
+                        <input type="email" name="email" class="r_inputs" />
+                    </label>
+                    <label>Date of birth</label>
+                    <div class="r_sign_up_select">
+                        <select name="day" id="r_sign_up_error_for_options">
+                            <option value="0" selected>Day</option>
+                        </select>
+                        <select name="month">
+                            <option value="0" selected>Month</option>
+                        </select>
+                        <select name="year">
+                            <option value="0" selected>Year</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="r_sign_up_dialog_boxes">
+                    <label>Country</label>
+                    <div class="r_sign_up_select">
+                        <select name="country" class="r_sign_up_country_gender">
+                            <option value="0">Country</option>
+                        </select>
+                    </div>
+                    <label>Gender</label>
+                    <div class="r_sign_up_select">
+                        <select name="gender" class="r_sign_up_country_gender" id="r_sign_up_error_for_options">
+                            <option value="0">Gender</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="r_sign_up_bottom">
+            <p id="r_sign_up_error_for_p">
+                <span><svg  width="10" height="10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
+                                <path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
+                                <path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
+                            </svg>
+                        </span>&nbsp;&nbsp;Fields are incompletely or incorrectly filled</p>
+            <p class="r_licence">By signing up I agree to Company's
+                <a href="#">Terms of Use</a>
+                <br />
+                <input type="submit" value="Sign up" />
+            </p>
+        </div>
+    </div>
+</div>
+<!-- /NEW SIGN UP -->
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- NEWS POP UP -->
-    <div id="r_news_popup">
+    <div id="r_news_popup" style="display:none">
         <div>
             <div>
                 <span>
@@ -130,114 +232,10 @@
             <a href="#">Reset</a>
         </div>
     </div>
-    <div id="r_sign_up">
-        <div>
-            <span>
-						<svg  width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-						<path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-						<path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-					</svg>
-				</span>
-            <p>Sign up for Company Name</p>
-            <div>
-                <div>
-                    <label for="r_fname">Name</label>
-                </div>
-                <div>
-                    <label for="r_f_pass">Password</label><span id="r_all_fields_required">All fields are required</span></div>
-            </div>
-            <div>
-                <div>
-                    <input type="text" name="fname" id="r_fname" class="r_invalid_input_data_alert_1" />
-                </div>
-                <div>
-                    <input type="password" name="f_pass" id="r_f_pass" />
-                </div>
-            </div>
-            <div>
-                <div>
-                    <label for="r_sname">Surname</label>
-                </div>
-                <div>
-                    <label for="r_s_pass">Coufirm Password</label>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <input type="text" name="lname" id="r_sname" />
-                </div>
-                <div>
-                    <input type="password" name="s_pass" id="r_s_pass" />
-                </div>
-            </div>
-            <div>
-                <div>
-                    <label for="r_email">Email</label>
-                </div>
-                <div>
-                    <label for="r_country">Country</label>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <input type="email" name="email" id="r_email" />
-                </div>
-                <div id="r_country_section">
-                    <img src="img/raz/arrow_bottom.png" />
-                    <select name="country" id="r_country">
-                        <option value="0" selected>Choose Country</option>
-                        <option value="1">Armenia</option>
-                        <option value="2">Russia</option>
-                    </select>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <label for="r_date_of_birth">Date of Birth</label>
-                </div>
-                <div>
-                    <label for="r_gender">Country</label>
-                </div>
-            </div>
-            <div>
-                <div id="r_date_section">
-                    <img src="img/raz/arrow_bottom.png" />
-                    <img src="img/raz/arrow_bottom.png" />
-                    <img src="img/raz/arrow_bottom.png" />
-                    <select name="day" id="r_day">
-                        <option value="0" selected>Day</option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                    </select>
-                    <select name="month" id="r_month">
-                        <option value="0" selected>Month</option>
-                        <option value="1">January</option>
-                        <option value="2">February</option>
-                    </select>
-                    <select name="year" id="r_country">
-                        <option value="0" selected>Year</option>
-                        <option value="1">2015</option>
-                        <option value="2">2014</option>
-                    </select>
-                </div>
-                <div>
-                    <select name="gender" id="r_gender">
-                        <option value="0" selected>Gender</option>
-                        <option value="1">Male</option>
-                        <option value="2">Female</option>
-                    </select>
-                </div>
-            </div>
-            <br />
-            <p id="r_invalid_input_data_alert_2">
-                <svg width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-                    <path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-                    <path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-                </svg>Fields are incompletely or incorrectly filled</p>
-            <p>By signing up I agree with Company's <a href="#">Terms of Use</a></p>
-            <a href="#">Sign up</a>
-        </div>
-    </div>
+
+
+
+
     <div id="r_login_company">
         <div>
             <span>

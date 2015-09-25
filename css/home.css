@@ -886,10 +886,10 @@
 }
 
 .ajax-more-news-btn-out-pad {
-    margin-top: -9px;
+    /*margin-top: -9px;*/
 }
 
 .ajax-more-news-btn-pad {
-    height: auto!Important;
+    height: auto!important;
     padding-top: 1px;
 }

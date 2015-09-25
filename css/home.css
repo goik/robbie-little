@@ -893,3 +893,25 @@
     height: auto!important;
     padding-top: 1px;
 }
+
+span.tc {
+    display: block;
+    padding-bottom: 10px;
+    padding-left: 8px;
+}
+
+@media screen and (max-width:800px) {
+    .horison-news-cell-section {
+        margin-bottom: 15px;
+    }
+}
+
+.horison-news-cell:after {
+    content: "";
+    display: block;
+    clear: both;
+    font-size: 0;
+    text-decoration: none;
+    visibility: hidden;
+    text-indent: -999999px;
+}

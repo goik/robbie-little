@@ -1259,9 +1259,9 @@
     border: 1px solid #f55665;
     color: #f55665;
 }
+
 #r_sign_up_error_for_options,
-#r_sign_up_error_for_inputs
-{
+#r_sign_up_error_for_inputs {
     background-size: 10px 10px;
     -ms-background-size: 10px 10px;
     -moz-background-size: 10px 10px;

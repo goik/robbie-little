@@ -915,3 +915,20 @@ span.tc {
     visibility: hidden;
     text-indent: -999999px;
 }
+
+.user-drop-down {
+    text-align: left
+}
+
+.top-nav-menu-items-list li {
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.long-dd {
+    height: 310px
+}
+
+.actor-film-carousel .owl-theme .owl-controls .owl-page span{background:#797979;}
+.actor-film-carousel .owl-theme .owl-controls .owl-page.active span{background:#1f95ef}

@@ -1215,21 +1215,21 @@ span.img-title {
 
 /*PURCHES AND HISTORY*/
 
-#r_purchase_history {
+.r_purchase_history {
     margin-left: 22px;
 }
 
-#r_purchase_history > div {
+.r_purchase_history > div {
     min-height: 256px;
     margin-bottom: 20px;
 }
 
-#r_purchase_history > div > div {
+.r_purchase_history > div > div {
     float: left;
     min-height: 256px;
 }
 
-#r_purchase_history > div > .r_movie_image {
+.r_purchase_history > div > .r_movie_image {
     width: 170px;
     height: 256px;
     overflow: hidden;
@@ -1237,7 +1237,7 @@ span.img-title {
     z-index: 1000;
 }
 
-#r_purchase_history > div > .r_movie_image > img {
+.r_purchase_history > div > .r_movie_image > img {
     width: 100%;
     height: 100%;
     border: 1px solid #ffffff;
@@ -1361,4 +1361,8 @@ span.img-title {
 
 .r_movie_info > div:nth-child(3) > p > span {
     color: #1f95ef;
+}
+
+.form-action-cell {
+    padding-bottom: 20px;
 }

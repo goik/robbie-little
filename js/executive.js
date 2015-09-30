@@ -193,7 +193,7 @@ $(document).ready(function() {
         $(this).find(".user-drop-down").stop().animate({
             opacity: 0
         }, 300, function() {
-            $(this).find(".user-drop-down").css({
+            $(this).css({
                 display: "none"
             });
         });

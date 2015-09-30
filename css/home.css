@@ -1205,6 +1205,7 @@ span.img-title {
 #r_forgot_password,
 #r_password_reset,
 #r_del_account,
+#r_sign_up,
 #r_sign_up_successfull {
     display: block;
     position: fixed;

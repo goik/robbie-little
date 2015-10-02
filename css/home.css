@@ -1377,14 +1377,236 @@ span.img-title {
 .bg-option {
     background-repeat: no-repeat;
     background-position: center top;
-    background-size:100% auto;
-    -webkit-background-size:100% auto;
-    -o-background-size:100% auto;
-    -ms-background-size:100% auto;
-    -icab-background-size:100% auto;
-    -khtml-background-size:100% auto;
-    -moz-background-size:100% auto;
+    background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    -icab-background-size: 100% auto;
+    -khtml-background-size: 100% auto;
+    -moz-background-size: 100% auto;
 }
 
 
+/*ADD CARD*/
 
+#r_saved_credit_cards {
+    width: 100%;
+    padding: 0px 20px 0px 20px;
+}
+
+#r_saved_credit_cards > div:nth-child(1) {
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: #f7f7f7;
+}
+
+#r_saved_credit_cards > div:nth-child(1) > div {
+    float: left;
+    width: 24%;
+    height: 36px;
+}
+
+#r_saved_credit_cards> div:nth-child(4) > div {
+    width: 28%;
+}
+
+#r_saved_credit_cards > div:nth-child(1) > div > span {
+    display: block;
+    overflow: hidden;
+    font-family: ProximaNova-Regular, sans-serif;
+    ;
+    font-size: 14px;
+    color: #1f95ef;
+    line-height: 36px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#r_saved_credit_cards > div:nth-child(1) > div:nth-child(1) > span {
+    text-indent: 14px;
+}
+
+.r_saved_credit_card_data > div {
+    float: left;
+    width: 24%;
+    height: 36px;
+}
+
+.r_saved_credit_card_data > div:nth-child(4) {
+    width: 28%;
+}
+
+.r_saved_credit_card_data > div:nth-child(1) > span {
+    text-indent: 14px;
+}
+
+.r_saved_credit_card_data > div > span {
+    display: block;
+    overflow: hidden;
+    font-family: ProximaNova-Regular, sans-serif;
+    ;
+    font-size: 14px;
+    color: #4d4d4d;
+    line-height: 36px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(1) > label {
+    display: block;
+    float: left;
+}
+
+.r_saved_credit_card_data > div:last-child > a > label > span {
+    display: block;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(1) > label > span > input {
+    display: none;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(1) > label > span > span:nth-child(2) {
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+    margin-right: 7px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: rgba(255, 255, 255, .7);
+    position: relative;
+    cursor: pointer;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(1) > label > span > span:nth-child(2):hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(1) > label > span > span:nth-child(2) > svg {
+    display: none;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+
+.r_new_card_select:checked + span {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.r_new_card_select:checked + span > svg {
+    display: block!important;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(1) > label > span > span:nth-child(3) {
+    display: block;
+    float: left;
+    font-family: ProximaNova-Regular, sans-serif;
+    ;
+    font-size: 14px;
+    color: #4d4d4d;
+    line-height: 36px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(2) > label {
+    display: block;
+    float: left;
+    padding-left: 34px;
+    transition: padding-left 0.2s ease;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(2) > label > span > span:nth-child(1) {
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 7px;
+    margin-right: 7px;
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: rgba(255, 255, 255, .0);
+    position: relative;
+    cursor: pointer;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(2) > label > span > span:nth-child(1) > svg {
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    top: 5px;
+    left: 4px;
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(2) > label > span > span:nth-child(1):hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.r_saved_credit_card_data > div:last-child > a:nth-child(2) > label > span > span:nth-child(2) {
+    display: block;
+    float: left;
+    font-family: ProximaNova-Regular, sans-serif;
+    ;
+    font-size: 14px;
+    color: #4d4d4d;
+    line-height: 36px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1024px) {
+    .PROFILE-PAGE-INNER-RIGHT-PAD {
+        padding-right: 20px;
+    }
+}
+
+.r_saved_credit_card_data:after,
+.form-action-cell-2:after {
+    content: "";
+    display: block;
+    clear: both;
+    font-size: 0;
+    text-decoration: none;
+    visibility: hidden;
+    text-indent: -999999px;
+}
+
+.form-action-cell-2 a {
+    margin-left: 9px;
+}
+
+.form-action-cell-2 {
+    text-align: right;
+    padding-top: 14px;
+    clear: both;
+    padding-right: 20px;
+}
+
+@media screen and (max-width:940px) {
+    .r_saved_credit_card_data > div:nth-child(4),
+    .r_saved_credit_card_data > div {
+        width: 34%
+    }
+    #r_saved_credit_cards > div:nth-child(1) > div,
+    .r_saved_credit_card_data > div {
+        width: 20%;
+    }
+}
+
+.r_saved_credit_card_data {
+    clear: both;
+    clear: both;
+    display: block;
+}
+
+@media screen and (max-width:940px) {
+    .r_saved_credit_card_data > div:last-child > a:nth-child(2) > label {
+        padding-left: 20px;
+    }
+}

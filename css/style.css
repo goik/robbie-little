@@ -8831,11 +8831,11 @@ input[type="password"] {
   }
 
   /* line 3091, ../sass/style.scss */
-  .form-action-cell,
+/*  .form-action-cell,
   .form-field-two-column-left,
   .form-field-two-column-right {
     width: 80%;
-  }
+  }*/
 }
 /* line 3098, ../sass/style.scss */
 .card-place img {

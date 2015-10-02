@@ -45,10 +45,18 @@
 		<link type="image/x-icon" href="img/WebClip/robbie-little-favicon.ico" rel="shortcut icon"/>
 	</head>
 	<body id="top" class="light-bg">
-
-		<a href="#" class="body-movie-promo-link">
-			<img src="img/bg.png" alt="" title="" class="promo-img">
-		</a>
+    <style type="text/css">
+    .bg-option {
+        background-image:url(img/bg-small.jpg);
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2) {
+            background-image:url(img/bg.jpg);
+        }
+    }
+    </style>
+    <a href="#" class="body-movie-promo-link bg-option"></a>
 		<!--main wrapper-->
 		<main class="main-wrapper">
 

@@ -241,4 +241,11 @@ $(document).ready(function() {
     */
 
 
+        $("#r_sign_up, #r_del_account, #r_subscribe_newsletter, #r_login_company, #r_forgot_password, #r_password_reset, #r_del_account, #r_sign_up, #r_sign_up_successfull").mousewheel(function(event, delta) {
+            event.stopPropagation();
+            event.preventDefault();
+        });
+
+
+
 });

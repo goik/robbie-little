@@ -1367,3 +1367,24 @@ span.img-title {
 .form-action-cell {
     padding-bottom: 20px;
 }
+
+#r_sign_up {
+    position: fixed!important;
+    left: 0;
+    top: 0;
+}
+
+.bg-option {
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size:100% auto;
+    -webkit-background-size:100% auto;
+    -o-background-size:100% auto;
+    -ms-background-size:100% auto;
+    -icab-background-size:100% auto;
+    -khtml-background-size:100% auto;
+    -moz-background-size:100% auto;
+}
+
+
+

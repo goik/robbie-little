@@ -47,258 +47,20 @@
     <link rel="manifest" href="img/WebClip/robbie-little-manifest.json" />
     <link type="image/x-icon" href="img/WebClip/robbie-little-favicon.ico" rel="shortcut icon" />
 </head>
-
 <body id="top" class="light-bg">
+    <style type="text/css">
+    .bg-option {
+        background-image:url(img/bg-small.jpg);
+        @media only screen and (-webkit-min-device-pixel-ratio: 2),
+        only screen and (   min--moz-device-pixel-ratio: 2),
+        only screen and (     -o-min-device-pixel-ratio: 2/1),
+        only screen and (        min-device-pixel-ratio: 2) {
+            background-image:url(img/bg.jpg);
+        }
+    }
+    </style>
+    <a href="#" class="body-movie-promo-link bg-option"></a>
 
-
-
-
-<!-- NEW SIGN UP -->
-<div id="r_sign_up" style="display:none">
-    <div>
-        <div class="r_sign_up_top">
-            <span>
-                        <svg  width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-                            <path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-                            <path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-                        </svg>
-                    </span>
-            <p>Sign up for Company Name</p>
-        </div>
-        <div>
-            <form novalidate>
-                <div class="r_sign_up_dialog_boxes">
-                    <label>Name
-                        <br />
-                        <input type="text" name="fname" class="r_inputs" id="r_sign_up_error_for_inputs" />
-                    </label>
-                    <label>Surname
-                        <br />
-                        <input type="text" name="lname" class="r_inputs" />
-                    </label>
-                </div>
-                <div class="r_sign_up_dialog_boxes">
-                    <label>Password
-                        <br />
-                        <input type="password" name="fpass" class="r_inputs" />
-                    </label>
-                    <label>Confirm password
-                        <br />
-                        <input type="password" name="spass" class="r_inputs" />
-                    </label>
-                </div>
-                <div class="r_sign_up_dialog_boxes">
-                    <label>Email
-                        <br />
-                        <input type="email" name="email" class="r_inputs" />
-                    </label>
-                    <label>Date of birth</label>
-                    <div class="r_sign_up_select">
-                        <select name="day" id="r_sign_up_error_for_options">
-                            <option value="0" selected>Day</option>
-                        </select>
-                        <select name="month">
-                            <option value="0" selected>Month</option>
-                        </select>
-                        <select name="year">
-                            <option value="0" selected>Year</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="r_sign_up_dialog_boxes">
-                    <label>Country</label>
-                    <div class="r_sign_up_select">
-                        <select name="country" class="r_sign_up_country_gender">
-                            <option value="0">Country</option>
-                        </select>
-                    </div>
-                    <label>Gender</label>
-                    <div class="r_sign_up_select">
-                        <select name="gender" class="r_sign_up_country_gender" id="r_sign_up_error_for_options">
-                            <option value="0">Gender</option>
-                            <option value="1">Male</option>
-                            <option value="2">Female</option>
-                        </select>
-                    </div>
-                </div>
-            </form>
-        </div>
-        <div class="r_sign_up_bottom">
-            <p id="r_sign_up_error_for_p">
-                <span><svg  width="10" height="10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-                                <path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-                                <path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-                            </svg>
-                        </span>&nbsp;&nbsp;Fields are incompletely or incorrectly filled</p>
-            <p class="r_licence">By signing up I agree to Company's
-                <a href="#">Terms of Use</a>
-                <br />
-                <input type="submit" value="Sign up" />
-            </p>
-        </div>
-    </div>
-</div>
-<!-- /NEW SIGN UP -->
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- NEWS POP UP -->
-    <div id="r_news_popup" style="display:none">
-        <div>
-            <div>
-                <span>
-						<svg  width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-							<path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-							<path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-						</svg>
-					</span>
-                <p><span>07.22.2015</span> | <span><a href="#">Eric Eisenberg</a></a></span></p>
-                <p>So, Leonardo DiCaprio Isn't Really Going To Talk In His New Movie</p>
-                <ul>
-                    <li><a href="#">WOLRD CINEMA NEWS</a><span>|</span></li>
-                    <li><a href="#">SOON ON THE CINEMA</a><span>|</span></li>
-                    <li><a href="#">FESTIVALES</a></li>
-                </ul>
-            </div>
-            <div>
-                <img src="img/raz/divergent_2014_movie-(1).png" title="" alt="">
-            </div>
-            <div>
-                <p>If there’s any public figure that people are running from faster than Donald Trump, it’s Bill Cosby. The actor and comedian who has been accused of multiple counts of rape and has been left out in the cold by even his most ardent supporters. He’s now been cut from a new film that he had a large part in helping create. Painted Down is a documentary about the history of black stunt men and women in Hollywood. After standing behind Cosby back in November, when the most recent allegations were fresh, Deadline reports that the film’s producers have now had to change their tune and cut Cosby from the piece. Producer Nonie Robinson had this to say:</p>
-                <div>
-                    <ul>
-                        <li>
-                            <a href="#"><span><i class="fa fa-facebook-f nsi"></i></span></a>
-                        </li>
-                        <li>
-                            <a href="#"><span><i class="fa fa-twitter nsi"></i></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- NEWS POP UP -->
-    <!--USER PROFILE FOLDER-->
-    <div id="r_del_account">
-        <div>
-            <p>delete account</p>
-            <p>Are you sure you want to delete your account?</p>
-            <ul>
-                <li><a href="#">No</a></li>
-                <li><a href="#">Yes</a></li>
-            </ul>
-        </div>
-    </div>
-    <!--LOGIN, SIGN-UP FOLDER-->
-    <div id="r_sign_up_successfull">
-        <div>
-            <p>Sign Up is Successful</p>
-            <p>Thank you for signing up <span>Company Name!</span>
-                <br /> Please check your mailbox (<a href="#">melkonyanhaik@gmail.com</a>) to activate your account</p>
-            <a href="#">Ok</a>
-        </div>
-    </div>
-    <div id="r_password_reset">
-        <div>
-            <p>Password Reset</p>
-            <p>Please Check your mailbox (<a href="#">melkonyanhaik@gmail.com</a>) to get new password for your account</p>
-            <a href="#">Ok</a>
-        </div>
-    </div>
-    <div id="r_forgot_password">
-        <div>
-            <div>
-                <span>
-							<svg  width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-							<path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-							<path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-						</svg>
-					</span>
-            </div>
-            <p>Password Reset</p>
-            <label for="emailreset">EMAIL</label>
-            <input type="email" name="email" id="emailreset" class="wrong_email" />
-            <span id="email_error">ERROR</span>
-            <a href="#">Reset</a>
-        </div>
-    </div>
-
-
-
-
-    <div id="r_login_company">
-        <div>
-            <span>
-				<svg  width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-						<path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-						<path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-					</svg></span>
-            <p>Login to Company Name</p>
-            <div class="r_invalid_login_data">
-                <label for="r_login_email">Email</label>
-                <input type="email" name="email" id="r_login_email" />
-                <svg width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-                    <path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-                    <path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-                </svg>
-            </div>
-            <div class="">
-                <label for="r_login_password">Password</label>
-                <input type="password" name="pass" id="r_login_password" />
-                <svg width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-                    <path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-                    <path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-                </svg>
-            </div>
-            <a href="#">Forgot password?</a>
-            <!-- id =  r_loging_error_text -->
-            <div id="">
-                <p>
-                    <svg width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-                        <path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-                        <path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-                    </svg>Fields are incompletely or incorrectly filled</p>
-            </div>
-            <a href="#">Login</a>
-            <div>
-                <div><span>OR</span></div>
-            </div>
-            <a href="#">
-                <img src="img/raz/fb.png" title="Login with Facebook" alt="facebook login" />
-            </a>
-            <p>Don't have an account?</p>
-            <a href="#">Sign up</a>
-        </div>
-    </div>
-    <!--HOME FOLDER-->
-    <div id="r_subscribe_newsletter">
-        <div>
-            <span>
-					<svg  width="15" height="15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="close_btn_svg" viewBox="0 0 1024 1024">
-						<path class="path1" d="M100.713 0.020l923.335 923.335-100.742 100.742-923.335-923.335 100.742-100.742z"></path>
-						<path class="path2" d="M923.506 0.137l100.714 100.771-923.596 923.073-100.714-100.771 923.596-923.073z"></path>
-					</svg>
-				</span>
-            <p>Subscribe to Newsletter</p>
-            <p>Email</p>
-            <input type="email" name="email" />
-            <a href="#">Subscribe</a>
-        </div>
-    </div>
-    <!-- **************************************************************************************************************************************** -->
-    <a href="#" class="body-movie-promo-link">
-        <img src="img/bg.png" alt="" title="" class="promo-img">
-    </a>
     <!--main wrapper-->
     <main class="main-wrapper">
         <!--test-height-->
@@ -338,31 +100,458 @@
                                     </nav>
                                 </div>
                             </div>
-                            <div class="search-cell">
-                                <div class="search-cell-pad">
-                                    <div class="search-bar">
-                                        <div class="search-bar-left">
-                                            <span class="search-submit">
-													<span class="search-submit-icon">
-														<svg 		viewBox="0 0 1043 1024"
-																	width="0" 
-																	height="0" 
-																	version="1.1" 
-																	xmlns="http://www.w3.org/2000/svg" 
-																	xmlns:xlink="http://www.w3.org/1999/xlink"
-																	class="search-icon-svg">
-															<path class="path1" d="M689.126 738.349l49.223-49.223 304.808 265.25-69.614 69.624-284.417-285.651z"></path>
-															<path class="path2" d="M443.010 0c-244.676 0-443.010 198.337-443.010 443.010 0 244.659 198.334 443.010 443.010 443.010 244.662 0 443.010-198.351 443.010-443.010 0-244.673-198.347-443.010-443.010-443.010zM443.010 787.573c-190.309 0-344.563-154.254-344.563-344.563 0-190.296 154.254-344.563 344.563-344.563 190.296 0 344.563 154.268 344.563 344.563 0 190.309-154.268 344.563-344.563 344.563z"></path>
-														</svg>
-													</span>
-                                            </span>
-                                        </div>
-                                        <div class="search-bar-right">
-                                            <input type="text" class="default-search" placeholder="Search Movies, Actors, Directors" />
+                                <div class="search-cell">
+
+                                    <!-- search-drop-down -->
+                                    <div class="search-drop-down">
+                                        <div class="search-drop-down-pad">
+                                            <i class="arrow-dd"></i>
+
+                                            <!-- search-two-column-drop-down -->
+                                            <div class="search-two-column-drop-down">
+                                                <div class="search-two-column-drop-down-left">
+
+                                                    <h2 class="search-sub-section">
+                                                        <span class="search-sub-section-txt">
+                                                            MOVIE
+                                                        </span>
+                                                    </h2>
+
+                                                    <!-- ~~~~~~scroll-cell ~~~~~~-->
+                                                    <div class="scroll-cell">
+                                                        <div class="scroll-cell-pad">
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-7.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-2.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-3.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+                                                            
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-4.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-5.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-6.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- ~~~~~~/scroll-cell ~~~~~~-->
+
+                                                </div>
+                                                <div class="search-two-column-drop-down-right">
+
+                                                    <h2 class="search-sub-section">
+                                                        <span class="search-sub-section-txt">
+                                                            PEOPLE
+                                                        </span>
+                                                    </h2>
+
+                                                    <!-- ~~~~~~scroll-cell ~~~~~~-->
+                                                    <div class="scroll-cell">
+                                                        <div class="scroll-cell-pad">
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-8.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-9.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-10.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+                                                            
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-11.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-12.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+
+                                                            <!-- search-result-item -->
+                                                            <div class="search-result-item">
+                                                                <div class="search-result-item-inner-pad">
+                                                                    <div class="search-result-item-inner-left">
+                                                                        <a href="#">
+                                                                            <img    src="img/c-13.jpg" 
+                                                                                            alt="" 
+                                                                                            title="" 
+                                                                                            width="46" 
+                                                                                            height="70" 
+                                                                                            class="search-result-img"/>
+                                                                        </a>
+                                                                    </div>
+                                                                    <div class="search-result-item-inner-right">
+
+                                                                        <h2 class="search-result-title">
+                                                                            <a href="#" class="search-result-title-txt">
+                                                                                Cargo
+                                                                            </a>
+                                                                        </h2>
+
+                                                                        <div class="search-result-descr">
+                                                                            <span class="search-result-descr-row">2011 / Drama / 116min.</span>
+                                                                            <span class="search-result-descr-row">Yan Vizinberg</span>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- /search-result-item -->
+                                                            
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- ~~~~~~/scroll-cell ~~~~~~-->
+                                                </div>
+                                            </div>
+                                            <!-- /search-two-column-drop-down -->
+
                                         </div>
                                     </div>
+                                    <!-- /search-drop-down -->
+
+                                    <div class="search-cell-pad">
+                                        
+                                        <div class="search-bar">
+                                            <div class="search-bar-left">
+                                                <span class="search-submit">
+                                                    <span class="search-submit-icon">
+                                                        <svg        viewBox="0 0 1043 1024"
+                                                                    width="0" 
+                                                                    height="0" 
+                                                                    version="1.1" 
+                                                                    xmlns="http://www.w3.org/2000/svg" 
+                                                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                                    class="search-icon-svg">
+                                                            <path class="path1" d="M689.126 738.349l49.223-49.223 304.808 265.25-69.614 69.624-284.417-285.651z"></path>
+                                                            <path class="path2" d="M443.010 0c-244.676 0-443.010 198.337-443.010 443.010 0 244.659 198.334 443.010 443.010 443.010 244.662 0 443.010-198.351 443.010-443.010 0-244.673-198.347-443.010-443.010-443.010zM443.010 787.573c-190.309 0-344.563-154.254-344.563-344.563 0-190.296 154.254-344.563 344.563-344.563 190.296 0 344.563 154.268 344.563 344.563 0 190.309-154.268 344.563-344.563 344.563z"></path>
+                                                        </svg>
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <div class="search-bar-right">
+                                                <input  type="text" 
+                                                            class="default-search" 
+                                                            placeholder="Search Movies, Actors, Directors"
+                                                            />
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
                         </div>
                         <!--/top-cells-->
                     </div>

@@ -247,5 +247,40 @@ $(document).ready(function() {
         });
 
 
+        // .slide-pop-up
+
+        $("body").on("click",".play-btn",function(){
+            url= $(this).closest(".single-slider-item").find(".slide-item-container").text();
+            videoContainer=$(this).closest(".single-slider-out-cell").find(".slide-pop-up");
+            videoContainer.css({display:"block"}).stop().animate({opacity:1},300);
+            $(this).closest(".single-slider-out-cell").find(".video-frame").attr("src",url);
+            createFrame='<iframe  src="'+url+'" frameborder="0" class="video-frame" allowfullscreen></iframe>';
+            $(this).closest(".single-slider-out-cell").find(".slide-pop-up-only").html("");
+            $(".video-frame").remove();
+            $('<iframe width="478" height="268" frameborder="0" class="video-frame" allowfullscreen></iframe>')
+            .attr("src", "http://www.youtube.com/embed/" + url)
+            .appendTo(".slide-pop-up-only");
+            return false;
+        });
+
+
+        $("body").on("click",".js-close-video",function(){
+            $(this).closest(".slide-pop-up").stop().animate({opacity:0},300,function(){
+                $(this).css({display:"none"});
+            });
+            return false;
+        });
+
+
+/*        function toggleVideo(state) {
+            // if state == 'hide', hide. Else: show video
+            var div = document.getElementById("popupVid");
+            var iframe = div.getElementsByTagName("iframe")[0].contentWindow;
+            div.style.display = state == 'hide' ? 'none' : '';
+            func = state == 'hide' ? 'pauseVideo' : 'playVideo';
+            iframe.postMessage('{"event":"command","func":"' + func + '","args":""}', '*');
+        }
+*/
+
 
 });

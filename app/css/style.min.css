@@ -9578,9 +9578,8 @@ svg {
 
 .main-slider,
 .main-slider-fix {
-    min-height: 360px;
-    height: auto!important;
-    height: 360px
+    height: 360px;
+    overflow:hidden;
 }
 
 .resize-img {

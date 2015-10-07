@@ -134,9 +134,8 @@
 .single-slider-out-cell,
 .single-slider,
 .single-slider-item {
-    min-height: 17px;
-    height: auto!important;
-    height: 17px;
+    height: 268px;
+    overflow:hidden;
 }
 
 .single-slider-out-cell {
@@ -1971,7 +1970,7 @@ span.img-title {
     font-size: 16px;
     text-decoration: none;
     display: inline-block;
-    padding: 10px 23px;
+    padding: 12px 23px 10px 23px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -2039,7 +2038,7 @@ span.img-title {
     min-height: 383px;
     height: auto!important;
     min-height: 383px;
-/*    background: url(../img/cc.png) no-repeat center top;*/
+    /*    background: url(../img/cc.png) no-repeat center top;*/
 }
 
 .pop-up-platform.small-size .pop-up-platform-pad {
@@ -2154,11 +2153,10 @@ span.img-title {
     height: 10px;
 }
 
-.pp-tc{
-	clear: both;
-	display:block;
+.pp-tc {
+    clear: both;
+    display: block;
 }
-
 
 .pp-tc {
     width: 100%;
@@ -2166,12 +2164,12 @@ span.img-title {
 
 .pp-tc-left {
     width: 192px;
-    float:left;
+    float: left;
 }
 
 .pp-tc-right {
     width: 84px;
-    float:left;    
+    float: left;
 }
 
 .pp-tc-left .select-box-custom {
@@ -2181,11 +2179,72 @@ span.img-title {
 .pp-tc-left-pad {
     padding-right: 6px;
 }
+
 .pp-tc .ar-d {
     top: 14px;
     right: 11px;
 }
 
-.pp-tc .select-box-custom-style{padding-left:8px}
+.pp-tc .select-box-custom-style {
+    padding-left: 8px
+}
 
+.custom-checkbox-icon {
+    top: 7px;
+}
+
+.error-inp {
+    border: solid #ff0000 1px
+}
+
+.error-cross-cell {
+    display: block;
+}
+
+.single-slider-item {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.slide-pop-up {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100000000;
+    background: #000;
+}
+
+.slide-item-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.slide-pop-up {
+    display: none;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+
+.play-btn {
+    cursor: pointer
+}
+
+slide-pop-up-only {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background:red;
+}
+
+
+.play-btn{z-index:100}
 

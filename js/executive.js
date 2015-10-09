@@ -100,11 +100,11 @@ $(document).ready(function() {
         afterAction: function(elem) {}
     });
 
-    $(".prev-arr").click(function() {
+    $(".js-prev-arr").click(function() {
         mainSlider.trigger('owl.prev');
         return false;
     });
-    $(".next-arr").click(function() {
+    $(".js-next-arr").click(function() {
         mainSlider.trigger('owl.next');
         return false;
     });
@@ -248,7 +248,6 @@ $(document).ready(function() {
 
 
         // .slide-pop-up
-
         $("body").on("click",".play-btn",function(){
             url= $(this).closest(".single-slider-item").find(".slide-item-container").text();
             videoContainer=$(this).closest(".single-slider-out-cell").find(".slide-pop-up");

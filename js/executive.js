@@ -282,4 +282,29 @@ $(document).ready(function() {
 */
 
 
+
+
+
+    var owlDownload_x = $(".large-slide-cell-inner").owlCarousel({
+        items: 6,
+        navigation: true,
+        slideSpeed: 800,
+        lazyEffect: "fade",
+        transitionStyle: "fade",
+        responsive: true,
+        afterAction: function(elem) {}
+    });
+
+
+    $(".js-prev-arr-slider").click(function() {
+        owlDownload_x.trigger('owl.prev');
+        return false;
+    });
+
+    $(".js-next-arr-slider").click(function() {
+        owlDownload_x.trigger('owl.next');
+        return false;
+    });
+
+
 });

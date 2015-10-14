@@ -43,6 +43,9 @@ $(document).ready(function() {
         return false;
     });
 
+
+
+
     var owlDownload2 = $(".carou-2").owlCarousel({
         items: 5,
         navigation: true,
@@ -308,3 +311,6 @@ $(document).ready(function() {
 
 
 });
+
+
+

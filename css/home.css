@@ -1163,7 +1163,7 @@ span.img-title {
     height: 256px;
     overflow: hidden;
     position: absolute;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .r_purchase_history > div > .r_movie_image > img {
@@ -1863,6 +1863,7 @@ span.img-title {
 .close-btn,
 .owl-theme .owl-controls .owl-page span,
 .large-cover-img,
+.gradient-layer,
 .play-btn-svg {
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -2379,7 +2380,7 @@ span.img-title {
 
 .large-slide-cell-inner-item {
     float: left;
-/*    width: 225px;*/
+    /*    width: 225px;*/
     overflow: hidden;
     position: relative;
     top: 0;
@@ -2498,6 +2499,23 @@ span.img-title {
 .empty-img-carcass,
 .large-cover-img {
     display: block;
-    width:100%!important;
-    height:auto!important;
+    width: 100%!important;
+    height: auto!important;
+}
+
+.large-slide-link:hover .gradient-layer {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+
+.collection-inner-item,
+.actor-film-carousel-group .collection-inner-item {
+    width: auto!important;
+}
+
+.arrow-next-carousel {
+    right: 31px;
 }
